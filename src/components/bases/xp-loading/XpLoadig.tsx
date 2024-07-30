@@ -1,4 +1,5 @@
 import "./index.scss";
+import windowLogo from '../../../assets/window-logo.png';
 export default function XpLoadig() {
   return (
     <>
@@ -7,7 +8,7 @@ export default function XpLoadig() {
           <div className="flex items-end text-2xl">
             Microsoft
             <img
-              src="src/assets/window-logo.png"
+              src={windowLogo}
               alt="xp-logo"
               className="ml-8"
             />
